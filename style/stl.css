@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+  }
+  body{
+    background-image: url(fon/The\ Witcher\ 3\ Screenshot\ 2019.09.10\ -\ 17.19.05.26.png);
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+  .witcher{
+    flex: 1 1 auto;
+  }
+  .footer{
+    flex: 0 0 auto;
+}
+header{
+    color :gold
+}
+main{
+    color: paleturquoise;
+}
+.perc{
+    color : silver
+}
+footer{
+    color:violet;
+}
+header,main,.perc,footer{
+    padding: 0 15px;
+}
+@media (max-width:750px){
+    body{
+        background-image:url(fon/The\ Witcher\ 3\ Screenshot\ 2019.09.12\ -\ 21.29.10.94.png) ;
+    }
+    header{
+        color :violet
+    }
+    main{
+        color: tomato;
+    }
+    .perc{
+        color: orange;
+    }
+
+}
+@media(max-width:450px){
+    body{
+        background-image: url(fon/The\ Witcher\ 3\ Screenshot\ 2020.05.08\ -\ 19.51.55.52.png);
+        
+    }
+}
